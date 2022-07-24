@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <title>Amazing IceCreem</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.4b098219.svg">
+    <link rel="icon" type="image/png" href="/favicon.eb8acdc7.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/index.b07a87f3.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <header class="page-header" id="home">
+  <div class="container container--flex">
+    <div class="page-header__container">
+      <a class="logo" href="/index.html">
+        <svg width="199" height="50">
+          <use href="/sprite.f14d31f7.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <button class="mobile-menu-open" type="button">
+        <svg class="mobile-menu-open__icon" width="32" height="32">
+          <use href="/sprite.f14d31f7.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="button-buy-tablet" type="button" data-modal-open="">
+        <span class="button-buy-tablet__text">Buy now</span>
+        <svg class="button-buy__icon" width="20" height="20">
+          <use href="/sprite.f14d31f7.svg#icon-next"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="menu">
+      <div class="menu__container">
+        <div class="container-button-menu">
+          <button class="mobile-menu-close" type="button">
+            <svg class="mobile-menu-close__icon" width="32" height="32">
+              <use href="/sprite.f14d31f7.svg#icon-close"></use>
+            </svg>
+          </button>
+          <button class="button-buy" type="button" data-modal-open="">
+            <span class="button-buy__text">Buy now</span>
+            <svg class="button-buy__icon" width="20" height="20">
+              <use href="/sprite.f14d31f7.svg#icon-next"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="page-header__nav">
+          <ul class="page-header__list list">
+            <li class="page-header__items">
+              <a class="page-header__link link" href="#home">Home</a>
+            </li>
+            <li class="page-header__items">
+              <a class="page-header__link link" href="#about">About us</a>
+            </li>
+            <li class="page-header__items">
+              <a class="page-header__link link" href="#made">How it's made?</a>
+            </li>
+            <li class="page-header__items">
+              <a class="page-header__link link" href="#products">Our products</a>
+            </li>
+            <li class="page-header__items">
+              <a class="page-header__link link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section class="hero">
+  <div class="container">
+    <picture>
+      <source srcset="/desktop-hero-icecreem.1d1a7929.png    1x, /desktop-hero-icecreem@2x.9f09ef56.png 2x" media="(min-width: 1200px)">
+
+      <source srcset="/tablet-hero-icecreem.dd74a83c.png    1x, /tablet-hero-icecreem@2x.0504c0e7.png 2x" media="(min-width: 768px)">
+      <source srcset="/mobile-hero-icecreem.f7b1532e.png    1x, /mobile-hero-icecreem@2x.22350873.png 2x">
+
+      <img class="hero__icecreem image" src="/mobile-hero-icecreem.f7b1532e.png" alt="icecreem" data-aos="fade-up" data-aos-duration="1500">
+    </picture>
+    <picture>
+      <source srcset="/desktop-hero-girl.0e98ea26.png    1x, /desktop-hero-girl@2x.7c24b460.png 2x" media="(min-width: 1200px)">
+
+      <source srcset="/tablet-hero-girl.6b16808e.png    1x, /tablet-hero-girl@2x.5f7afdbd.png 2x" media="(min-width: 768px)">
+      <img class="hero__girl image" src="/tablet-hero-girl.6b16808e.png" alt="icecreem" data-aos="fade-left" data-aos-duration="1500">
+    </picture>
+
+    <picture>
+      <source srcset="/desktop-hero-milk.d47ffc51.png    1x, /desktop-hero-milk@2x.fafc2cba.png 2x" media="(min-width: 1200px)">
+
+      <source srcset="/tablet-hero-milk.09c8f1a6.png    1x, /tablet-hero-milk@2x.342bc449.png 2x" media="(min-width: 768px)">
+      <img class="hero__milk image" src="/tablet-hero-milk.09c8f1a6.png" alt="icecreem" data-aos="fade-right" data-aos-duration="1500">
+    </picture>
+    <div class="hero__circle" data-aos="zoom-out" data-aos-duration="1500"></div>
+    <div class="hero__wrap">
+      <div class="hero__position">
+        <h1 class="hero__title">
+          ice cream made with
+          <span class="hero__title--accent">passion</span>
+        </h1>
+        <ul class="hero__list list">
+          <li class="hero__item">
+            <a class="hero__link link" href="#products">Products</a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link hero__link--white link" href="#made">How it’s made?</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="quantity list">
+        <li class="quantity__item">
+          <span class="quantity__circle"></span>
+          <p class="quantity__number">16</p>
+          <p class="quantity__description">cafes</p>
+        </li>
+        <li class="quantity__item">
+          <span class="quantity__circle"></span>
+          <p class="quantity__number">23</p>
+          <p class="quantity__description">food trucks</p>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <p class="description__title">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <button class="description__button" type="button">
+        <svg class="description__icon" width="10" height="10">
+          <use href="/sprite.f14d31f7.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <section class="products__section" id="products">
+  <div class="container">
+    <p class="products__label">100% natural</p>
+    <h2 class="products__title">products</h2>
+    <ul class="card__list list">
+      <li class="card__item card--pink">
+        <div class="card-list__container">
+          <h3 class="card__title">ice cream</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et. dolore magna aliqua
+            facilisis.
+          </p>
+          <button type="button" class="card__btn btn-open" data-modal-pink-open="">
+            <svg class="card__icon-open" width="12" height="12">
+              <use href="/sprite.f14d31f7.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="card__item card--coffee">
+        <div class="card-list__container">
+          <h3 class="card__title">ice coffee</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et. dolore magna aliqua
+            facilisis.
+          </p>
+          <button type="button" class="card__btn btn-open" data-modal-coffee-open="">
+            <svg class="card__icon-open" width="12" height="12">
+              <use href="/sprite.f14d31f7.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="card__item card--green">
+        <div class="card-list__container">
+          <h3 class="card__title">milkshakes</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et. dolore magna aliqua
+            facilisis.
+          </p>
+          <button type="button" class="card__btn btn-open" data-modal-green-open="">
+            <svg class="card__icon-open" width="12" height="12">
+              <use href="/sprite.f14d31f7.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="backdrop is-hidden" data-modal-pink="">
+    <div class="card__modal card-pink">
+      <button class="button-buy__modal" type="button">
+        <span class="button-buy__text">Buy now</span>
+        <svg class="button-buy__icon" width="20" height="20">
+          <use href="/sprite.f14d31f7.svg#icon-next"></use>
+        </svg>
+      </button>
+      <p class="card-list__text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum delectus
+        quas incidunt vero molestias magnam. Ipsam dolore placeat, ipsum
+        accusantium soluta quia error illo. Quo aliquid nemo fugit id cupiditate
+        blanditiis laboriosam, veniam maiores sit, ea officiis praesentium.
+        Sapiente perspiciatis dicta, eos nihil
+      </p>
+      <button type="button" class="card__btn btn-close" data-modal-pink-close="">
+        <svg class="card__icon-close" width="12" height="12">
+          <use href="/sprite.f14d31f7.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="backdrop is-hidden" data-modal-coffee="">
+    <div class="card__modal card-coffee">
+      <button class="button-buy__modal" type="button">
+        <span class="button-buy__text">Buy now</span>
+        <svg class="button-buy__icon" width="20" height="20">
+          <use href="/sprite.f14d31f7.svg#icon-next"></use>
+        </svg>
+      </button>
+      <p class="card-list__text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum delectus
+        quas incidunt vero molestias magnam. Ipsam dolore placeat, ipsum
+        accusantium soluta quia error illo. Quo aliquid nemo fugit id cupiditate
+        blanditiis laboriosam, veniam maiores sit, ea officiis praesentium.
+        Sapiente perspiciatis dicta, eos nihil, sequi nemo nesciunt blanditiis
+        itaque hic suscipit eius culpa modi soluta necessitatibus consequuntur.
+      </p>
+      <button type="button" class="card__btn btn-close" data-modal-coffee-close="">
+        <svg class="card__icon-close" width="12" height="12">
+          <use href="/sprite.f14d31f7.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="backdrop is-hidden" data-modal-green="">
+    <div class="card__modal card-green">
+      <button class="button-buy__modal" type="button">
+        <span class="button-buy__text">Buy now</span>
+        <svg class="button-buy__icon" width="20" height="20">
+          <use href="/sprite.f14d31f7.svg#icon-next"></use>
+        </svg>
+      </button>
+      <p class="card-list__text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum delectus
+        quas incidunt vero molestias magnam. Ipsam dolore placeat, ipsum
+        accusantium soluta quia error illo. Quo aliquid nemo fugit id cupiditate
+        blanditiis laboriosam, veniam maiores sit, ea officiis praesentium.
+        Sapiente perspiciatis dicta, eos nihil, sequi nemo nesciunt blanditiis
+        itaque hic suscipit eius culpa modi soluta necessitatibus consequuntur.
+      </p>
+      <button type="button" class="card__btn btn-close" data-modal-green-close="">
+        <svg class="card__icon-close" width="12" height="12">
+          <use href="/sprite.f14d31f7.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <section class="about" id="made">
+  <div class="container">
+    <p class="about__subtitle">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__wrap">
+      <picture>
+        <source srcset="/desktop-about-cow.218905d6.png    1x, /desktop-about-cow@2x.28b0aab0.png 2x" media="(min-width: 1200px)">
+
+        <source srcset="/tablet-about-cow.6e5e636f.png    1x, /tablet-about-cow@2x.008e0754.png 2x" media="(min-width: 768px)">
+        <source srcset="/mobile-about-cow.9106ec92.png    1x, /mobile-about-cow@2x.0d285d5e.png 2x">
+
+        <img class="about__image image" src="/mobile-about-cow.9106ec92.png" alt="cow">
+      </picture>
+      <div class="list__wrap">
+        <ul class="about__list list">
+          <li class="about__item">
+            <p class="about__description">
+              Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+              justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend
+              erat at justo fringilla.
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__text">
+              Curabitur lacinia enim at ex blandit, vel pellentesque odio
+              elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum
+              euismod nisl suscipit ligula volutpat, a feugiat urna maximus.
+              Cras massa nibh, tincidunt.
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__text">Aliquam erat volutpat. Aenean accumsan.</p>
+          </li>
+        </ul>
+        <button class="about__button about-modal-open" type="button">
+          Read more
+          <svg class="about__icon" width="15" height="15">
+            <use href="/sprite.f14d31f7.svg#icon-next"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="advantages">
+    <div class="container">
+        <h2 class="visually-hidden">advantages</h2>
+        <ul class="advantages__list">
+            <li class="advantages__item">
+                <h3 class="advantages__title">721</h3>
+                <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li class="advantages__item">
+                <h3 class="advantages__title">16kg</h3>
+                <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li class="advantages__item">
+                <h3 class="advantages__title">84</h3>
+                <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section class="gallery">
+  <h2 class="gallery__title" hidden="">Gallery</h2>
+  <div class="gallery__sizer">
+    <div class="grid">
+      <div class="grid__gutter-sizer"></div>
+
+      <div class="grid__stamp grid__stamp-1"></div>
+      <div class="grid__stamp grid__stamp-2"></div>
+      <div class="grid__stamp grid__stamp-3"></div>
+      <div class="grid__stamp grid__stamp-4"></div>
+      <div class="grid__stamp grid__stamp-5"></div>
+
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p1.a1ff1ba7.png  1x, /gallery_p1@2x.30317b82.png 2x" src="/gallery_p1.a1ff1ba7.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p2.a55d56c2.png  1x, /gallery_p2@2x.0ec808bb.png 2x" src="/gallery_p2.a55d56c2.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-2">
+        <img class="grid__img" srcset="/gallery_p4.239691be.png  1x, /gallery_p4@2x.6819b833.png 2x" src="/gallery_p4.239691be.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p6.9b7a7597.png  1x, /gallery_p6@2x.22d0290b.png 2x" src="/gallery_p6.9b7a7597.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p8.d453048b.png  1x, /gallery_p8@2x.614710c9.png 2x" src="/gallery_p8.d453048b.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p10.f9085d80.png  1x, /gallery_p10@2x.2c45b542.png 2x" src="/gallery_p10.f9085d80.png" alt="image for gallery">
+      </div>
+      <!-- пустой -->
+      <div class="grid__item grid__img-height-1"></div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p3.cf8397f6.png  1x, /gallery_p3@2x.59e28e71.png 2x" src="/gallery_p3.cf8397f6.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p5.407adf04.png  1x, /gallery_p5@2x.744b0c9f.png 2x" src="/gallery_p5.407adf04.png" alt="image for gallery">
+      </div>
+      <!-- пустой -->
+      <div class="grid__item grid__img-height-1"></div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p7.153247ff.png  1x, /gallery_p7@2x.badf1596.png 2x" src="/gallery_p7.153247ff.png" alt="image for gallery">
+      </div>
+      <div class="grid__item grid__img-height-1">
+        <img class="grid__img" srcset="/gallery_p9.0c2b49dd.png  1x, /gallery_p9@2x.e0fd7b04.png 2x" src="/gallery_p9.0c2b49dd.png" alt="image for gallery">
+      </div>
+    </div>
+  </div>
+
+
+</section>
+    <div class="container__rc">
+  <section class="rc__section section" id="about">
+    <h2 class="rc__title">customer rewievs</h2>
+    <div class="wrapper">
+      <div class="rc__slider">
+        <div class="slide active">
+          <img class="icon" srcset="/CR.4261f4ed.png    1x, /CR@2x.04a040e3.png 2x, /CR@3x.9d032bda.png 3x" src="/CR.4261f4ed.png" alt="Emily">
+        </div>
+        <div class="slide">
+          <img class="icon" srcset="/CR2.52ed576f.png    1x, /CR2@2x.0e074b02.png 2x, /CR2@3x.4d9267f3.png 3x" src="/CR2.52ed576f.png" alt="Afrodita">
+        </div>
+        <div class="slide">
+          <img class="icon" srcset="/CR3.abf0aaf1.png    1x, /CR3@2x.927c7818.png 2x, /CR3@3x.cb912319.png 3x" src="/CR3.abf0aaf1.png" alt="Solomija">
+        </div>
+
+        <div id="btn-prev">></div>
+        <div id="btn-next">></div>
+      </div>
+      <div class="feedback active">
+        <div class="rc__text-thumb">
+          <div class="rc__bottom-border">
+            <p class="rc__text">
+              Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+              Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+              ipsum primis in nibh vel risus.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="rc-subtitle">Emily, Los Angeles</h3>
+      </div>
+
+      <div class="feedback">
+        <div class="rc__text-thumb">
+          <div class="rc__bottom-border">
+            <p class="rc__text">
+              Ha ho lithibelo tsa lipopae. Thuto e 'ngoe le e 'ngoe le litšeho
+              tse ncha. Ofisi ha e na nako ho feta hona joale, merero ea bareki.
+              Pele ho tsohle, kea leboha ka mokhoa oa hau oa mahala kapa
+              litšeho.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="rc-subtitle">Afrodita, Chicago</h3>
+      </div>
+
+      <div class="feedback">
+        <div class="rc__text-thumb">
+          <div class="rc__bottom-border">
+            <p class="rc__text">
+              I love ice cream, so I bought it for private use at home. Namely,
+              I ate ice cream first then a cup, so tastier. Although once she
+              tried to eat on the contrary, as a result her hands, cupboard and
+              ceiling were dirty.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="rc-subtitle">Solomija, New York</h3>
+      </div>
+
+      <div class="rc__dots_block">
+        <span class="dot active_dot">
+          <svg class="dot__current">
+            <use href="/sprite.f14d31f7.svg#rc__dot-icon"></use>
+          </svg>
+        </span>
+        <span class="dot">
+          <svg class="dot__current">
+            <use href="/sprite.f14d31f7.svg#rc__dot-icon"></use>
+          </svg>
+        </span>
+        <span class="dot">
+          <svg class="dot__current">
+            <use href="/sprite.f14d31f7.svg#rc__dot-icon"></use>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <section class="contacts" id="contact">
+  <div class="container">
+    <h2 class="title visually-hidden">Contacts</h2>
+    <ul class="contacts__list-items">
+      <li class="contacts__content text">
+        <div class="contacts__subtitle-holder contacts__subtitle-holder--primary">
+          <p class="contacts__subtitle">CAFE</p>
+        </div>
+        <p class="contacts__text contacts__text--primary">Chicago</p>
+        <p class="contacts__text-desc">
+          Fusce ut velit laoreet, tempus arcu molestie vulputate
+        </p>
+        <div class="contacts__item">
+          <div class="contacts__item-row">
+            <p class="contacts__text contacts__text--primary">
+              Monday - Friday
+            </p>
+            <p class="contacts__text contacts__text--accent">
+              06:00 AM - 10:00 PM
+            </p>
+          </div>
+          <p class="contacts__text contacts__text--primary">
+            Saturday - Sunday
+          </p>
+          <p class="contacts__text contacts__text--accent">
+            08:00 AM - 16:00 PM
+          </p>
+        </div>
+        <address class="contacts__address contacts__link">
+          <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+        </address>
+      </li>
+      <li class="contacts__content text">
+        <div class="contacts__subtitle-holder contacts__subtitle-holder--secondary">
+          <p class="contacts__subtitle">FOODTRUCK</p>
+        </div>
+        <p class="contacts__text contacts__text--primary">Los Angeles</p>
+        <p class="contacts__text-desc">
+          Fusce ut velit laoreet, tempus arcu molestie vulputate
+        </p>
+        <div class="contacts__item">
+          <div class="contacts__item-row">
+            <p class="contacts__text contacts__text--primary">
+              Monday - Friday
+            </p>
+            <p class="contacts__text contacts__text--accent">
+              06:00 AM - 10:00 PM
+            </p>
+          </div>
+          <p class="contacts__text contacts__text--primary">
+            Saturday - Sunday
+          </p>
+          <p class="contacts__text contacts__text--accent">
+            08:00 AM - 16:00 PM
+          </p>
+        </div>
+        <address class="contacts__address contacts__link">
+          <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+        </address>
+      </li>
+      <li class="contacts__content text">
+        <div class="contacts__subtitle-holder contacts__subtitle-holder--primary">
+          <p class="contacts__subtitle">CAFE</p>
+        </div>
+        <p class="contacts__text contacts__text--primary">New York</p>
+        <p class="contacts__text-desc">
+          Fusce ut velit laoreet, tempus arcu molestie vulputate
+        </p>
+        <div class="contacts__item">
+          <div class="contacts__item-row">
+            <p class="contacts__text contacts__text--primary">
+              Monday - Friday
+            </p>
+            <p class="contacts__text contacts__text--accent">
+              06:00 AM - 10:00 PM
+            </p>
+          </div>
+          <p class="contacts__text contacts__text--primary">
+            Saturday - Sunday
+          </p>
+          <p class="contacts__text contacts__text--accent">
+            08:00 AM - 16:00 PM
+          </p>
+        </div>
+        <address class="contacts__address contacts__link">
+          <a class="contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+          <a class="contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+        </address>
+      </li>
+    </ul>
+
+    <div class="contacts__btn-wrapper">
+      <button class="btn btn--secondary contacts__btn contacts__btn--secondary" type="button" data-geo-open="">
+        Our Locations
+        <svg class="contacts__btn-icon" width="10" height="20">
+          <use href="/icons.adfc4680.svg#icon-arrow"></use>
+        </svg>
+      </button>
+
+      <button class="btn btn--primary contacts__btn contacts__btn--primary franchise-open" type="button">
+        Franchise
+        <svg class="contacts__btn-icon" width="10" height="20">
+          <use href="/icons.adfc4680.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <section class="footer">
+  <div class="container">
+    <h2 class="visually-hidden">with passion</h2>
+    <div>
+      <p class="footer__subtitle" data-aos="zoom-in-down">
+        homemade ice cream made
+      </p>
+      <p class="footer__title" data-aos="zoom-in-up">
+        <span class="jump">w</span><span class="jump">i</span><span class="jump">t</span><span class="jump">h</span> <br><span class="jump">p</span><span class="jump">a</span><span class="jump">s</span><span class="jump">s</span><span class="jump">i</span><span class="jump">o</span><span class="jump">n</span>
+      </p>
+    </div>
+    <div class="contact__thumb">
+      <ul class="footer__social social list">
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link link" aria-label="github icon">
+            <svg class="social__icon" width="32" height="32">
+              <use href="/sprite.f14d31f7.svg#icon-github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link link" aria-label="telegram icon">
+            <svg class="social__icon" width="32" height="32">
+              <use href="/sprite.f14d31f7.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link link" aria-label="facebook icon">
+            <svg class="social__icon" width="32" height="32">
+              <use href="/sprite.f14d31f7.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer__contact">
+        Feel free to contact
+        <a href="tel:+610383766284" class="footer__tel link">
+          +61 (0) 383 766 284</a>
+      </p>
+    </div>
+  </div>
+  <div class="copy__thumb">
+    <p class="footer__copy">&#169; 2022 - IceCream. All Rights Reserved.</p>
+  </div>
+</section>
+
+    <!-- geo modal -->
+
+<div class="backdrop-geo is-hidden geo-modal">
+  <div class="modal-geo">
+    <button type="button" class="modal-button__close" data-geo-close="">
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="/sprite.f14d31f7.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">find us on the map</p>
+    <iframe class="geo-frame" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.098794482732!2d30.472123299999996!3d50.485094687772566!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1657998635865!5m2!1sru!2sua" width="360" height="360" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<!-- About modal -->
+
+<div class="backdrop-about is-hidden about-modal">
+  <div class="modal-about">
+    <button type="button" class="modal-button__close" data-about-close="">
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="/sprite.f14d31f7.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">eco technologies</p>
+  <iframe class="modal-about__frame" width="360" height="400" src="https://www.youtube.com/embed/UoQ0HDRbkQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <p class="modal-about__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Malesuada pellentesque elit eget gravida. Nisl nunc mi ipsum faucibus.
+    </p>
+  </div>
+</div>
+
+<!-- Franchise modal -->
+
+<div class="backdrop-franchise is-hidden">
+  <div class="modal-franchise">
+    <button type="button" class="modal-button__close franchise-close">
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="/sprite.f14d31f7.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal-title">Contact franchise manager</h3>
+    <form class="modal-form" action="#">
+      <p class="franchise-modal__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut
+        enim blandit. Aliquam etiam erat velit scelerisque in.
+      </p>
+
+      <div class="form-field">
+        <label class="form-input__text" for="Name">Name</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="text" name="Name" id="Name">
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="/sprite-modals.638c357d.svg#person-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="Mail">Mail</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="email" name="Почта" id="Mail">
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="/sprite-modals.638c357d.svg#email-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <button class="submit-button franchise" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- Order modal -->
+
+<div class="backdrop is-hidden" data-modal="">
+  <div class="modal">
+    <button class="modal-button__close" data-modal-close="">
+      <svg width="30" height="30">
+        <use href="/sprite.f14d31f7.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <p class="modal-title">enter data for order</p>
+    <form class="modal-form" action="#">
+      <div class="form-field">
+        <label class="form-input__text" for="Name1">Name</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="text" name="Name" id="Name1">
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="/sprite-modals.638c357d.svg#person-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="phone">Phone</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="tel" name="phone" id="phone">
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="/sprite-modals.638c357d.svg#phone-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="Mail1">Mail</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="email" name="Почта" id="Mail1">
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="/sprite-modals.638c357d.svg#email-modal"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="product-name">Product</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="/sprite-modals.638c357d.svg#modal-option"></use>
+          </svg>
+          <select class="form-field__select" id="product-name" name="product-name">
+            <option value="">Ice cream</option>
+            <option value="">Ice coffee</option>
+            <option value="" selected="">Milkshake</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="size">Size</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="/sprite-modals.638c357d.svg#modal-option"></use>
+          </svg>
+          <select class="form-field__select" id="size" name="size">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l" selected="">L</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="taste">Taste</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="/sprite-modals.638c357d.svg#modal-option"></use>
+          </svg>
+          <select class="form-field__select" id="taste" name="taste">
+            <option value="xs">Choco Life</option>
+            <option value="s">Banana Dream</option>
+            <option value="m" selected="">Limonchello</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text">
+          Quantity
+          <input class="form-input__quantity" type="number" name="quantity" min="0" max="999" step="1" value="0">
+        </label>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text">
+          Comment
+          <textarea class="form-field__textarea" name="feedback" placeholder="Comment to the order"></textarea>
+        </label>
+
+        <div class="form-field__button">
+          <button class="button submit-button" type="submit">Buy now</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();
+
+</script>
+    <script src="/index.dcc1f30e.js" defer=""></script>
+    <script src="/index.b28509ab.js" defer=""></script>
+    <script src="/index.db8bad75.js" defer=""></script>
+    <!--<script type="module" src="./partials/js/slider.js"></script>-->
+    <script src="/index.74e4aef5.js" defer=""></script>
+    <script src="/index.82b0216b.js" defer=""></script>
+    <script src="/index.60b982c8.js" defer=""></script>
+  </body>
+</html>
